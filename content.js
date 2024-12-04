@@ -18,7 +18,7 @@ chrome.storage.onChanged.addListener((changes) => {
 
 // Custom smooth scroll function
 function smoothScrollTo(targetY, duration) {
-  const startY = window.pageYOffset;
+  const startY = window.scrollY;
   const difference = targetY - startY;
   const startTime = performance.now();
 
