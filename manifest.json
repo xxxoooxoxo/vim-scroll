@@ -3,7 +3,7 @@
   "name": "Scroll with J and K",
   "version": "1.0",
   "description": "Scroll down with J and up with K. Configure scroll speed via settings.",
-  "permissions": ["storage"],
+  "permissions": ["storage", "activeTab"],
   "background": {
     "service_worker": "background.js"
   },
